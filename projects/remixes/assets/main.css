@@ -3,12 +3,127 @@ p {
   line-height: 0.75;
   text-align: center;
 }
-
+.text {
+  font-family: 'Bitter', serif;
+  line-height: 0.75;
+  text-align: center;
+}
+.text2 {
+  font-family: 'Bitter', serif;
+  line-height: 1;
+  text-align: center;
+}
+.text3 {
+  font-family: 'Bitter', serif;
+  line-height: 1.5;
+  text-align: center;
+}
+.text4 {
+  font-family: 'Bitter', serif;
+  line-height: 2;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: blue;
+}
+.submarine:hover {
+  visibility: hidden;
+   opacity: 0;
+   transition: visibility 0s 2s, opacity 2s linear;
+}
 h1 {
   font-family: 'Bitter', serif;
 }
-
-.blurhover {
+h1:hover  {
+    color: blue;
+    text-decoration: none;
+}
+.blur1 {
   color: transparent;
   text-shadow: 0 0 3px rgba( 0, 0, 0, 0.75);
+}
+.blur2 {
+  color: transparent;
+  text-shadow: 0 0 3px rgba( 0, 0, 0, 0.5);
+}
+.blur3 {
+  color: transparent;
+  text-shadow: 0 0 10px rgba( 0, 0, 0, 0.5);
+}
+.blur4 {
+  color: transparent;
+  text-shadow: 0 0 20px rgba( 0, 0, 0, 0.5);
+}
+.brackets {
+  color: blue;
+  font-size: 20px;
+  display: inline;
+}
+.brackets2 {
+  color: blue;
+  font-size: 30px;
+  display: inline;
+}
+.brackets3 {
+  color: blue;
+  font-size: 40px;
+  display: inline;
+}
+.brackets4 {
+  color:blue;
+  font-size: 50px;
+  display: inline;
+}
+div.wave{
+  position: relative;
+  width: 100%;
+}
+div.wave > span{
+  float: left;
+  width: 10%;
+  height: 200px;
+  animation: animate 1.5s ease-in-out alternate infinite;
+}
+div.wave > span:nth-child(1){
+  background-color: black;
+}
+div.wave > span:nth-child(2){
+  background-color: black;
+  animation-delay: .2s;
+}
+div.wave > span:nth-child(3){
+  background-color: black;
+  animation-delay: .4s;
+}
+div.wave > span:nth-child(4){
+  background-color: black;
+  animation-delay: .6s;
+}
+div.wave > span:nth-child(5){
+  background-color: black;
+  animation-delay: .8s;
+}
+div.wave > span:nth-child(6){
+  background-color: black;
+  animation-delay: 1s;
+}
+div.wave > span:nth-child(7){
+  background-color: black;
+  animation-delay: 1.2s;
+}
+div.wave > span:nth-child(8){
+  background-color: black;
+  animation-delay: 1.4s;
+}
+div.wave > span:nth-child(9){
+  background-color: black;
+  animation-delay: 1.6s;
+}
+div.wave > span:nth-child(10){
+  background-color: black;
+  animation-delay: 1.8s;
+}
+@keyframes animate{
+  to { height: 100px; }
 }
