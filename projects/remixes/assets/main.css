@@ -23,6 +23,26 @@ p {
   line-height: 2;
   text-align: center;
 }
+.black {
+  font-family: 'Bitter', serif;
+  line-height: 0.5;
+  text-align: center;
+}
+.black2 {
+  font-family: 'Bitter', serif;
+  line-height: 0.4;
+  text-align: center;
+}
+.black3 {
+  font-family: 'Bitter', serif;
+  line-height: 0.25;
+  text-align: center;
+}
+.black4 {
+  font-family: 'Bitter', serif;
+  line-height: 0.1;
+  text-align: center;
+}
 a{
   text-decoration: none;
   color: blue;
