@@ -1,0 +1,78 @@
+.special {
+    font-size: 20;
+    font-weight: bold;
+    font-family: Avenir, Helvetica, sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.first {
+  background: #ffe899;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: 400px;
+  left: 250px;
+  border-radius: 100%;
+}
+.second {
+  background: #ffe4c2;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: 400px;
+  left: 450px;
+  border-radius: 100%;
+}
+.third {
+  background: #eabea9;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: 400px;
+  left: 650px;
+  border-radius: 100%;
+}
+.fourth {
+  background: #da357e;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: 400px;
+  left: 850px;
+  border-radius: 100%;
+}
+.fifth {
+  background: #fcedfd;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: 200px;
+  left: 350px;
+  border-radius: 100%;
+}
+.sixth {
+  background: #e6e6fb;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: 200px;
+  left: 550px;
+  border-radius: 100%;
+}
+.seventh {
+  background: #52bfbf;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: 200px;
+  left: 750px;
+  border-radius: 100%;
+}
