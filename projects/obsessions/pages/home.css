@@ -55,8 +55,8 @@ p {
   font-size: 40px;
   font-family: 'Roboto';
   line-height: 0px;
-  bottom: 10px;
-  left: 30px;
+/*  bottom: 10px;
+  left: 30px;*/
 /* Title jumps around despite having the same settings on diff pages */
 }
 

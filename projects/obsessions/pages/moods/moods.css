@@ -1,0 +1,46 @@
+.angry {
+  background-color: #F3142F;
+}
+.sad {
+  background-color: #0076FF;
+}
+.bored {
+  background-color: #BD0FE1;
+}
+.excited {
+  background-color: #7ED321;
+}
+.happy {
+  background-color: #FF9F00;
+}
+.relaxed {
+  background-color: #F58FEE;
+}
+.tired {
+  background-color: #F8E81C;
+}
+.title {
+  position: fixed;
+  color: black;
+  font-size: 40px;
+  font-family: 'Roboto';
+  bottom: 10px;
+  left: 30px;
+}
+
+.container {
+  font-family: 'Bitter';
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.container p {
+  text-align: left;
+  font-size: 40px;
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
