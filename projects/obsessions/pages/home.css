@@ -74,7 +74,32 @@ a:hover {
 
 @media (max-width: 900px) {
   .excited {
-    font-size: 24px;
+    font-size: 4vmax;
+  }
+  .tired {
+    font-size: 6vmax;
+  }
+  .happy {
+    font-size: 6vmax;
+  }
+  .angry {
+    font-size: 4vmax;
+  }
+  .relaxed {
+    font-size: 6vmax;
+  }
+  .bored {
+    font-size: 5vmax;
+  }
+  .sad {
+    font-size: 5vmax;
+  }
+  .sad {
+    font-size: 4vmax;
+  }
+  .title {
+    position: absolute;
+    top: 80px;
   }
 }
 /* end of media query */
