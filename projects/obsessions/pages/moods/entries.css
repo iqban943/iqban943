@@ -24,23 +24,49 @@
   color: black;
   font-size: 40px;
   font-family: 'Roboto';
-  bottom: 20px;
-  left: 50px;
+  bottom: 10px;
+  left: 30px;
 }
 
 .container {
   font-family: 'Bitter';
   margin: 0 auto;
   max-width: 600px;
+  margin-top: 200px;
+  position: relative;
+  padding: 0 100px;
 }
 
 .container p {
   text-align: left;
   font-size: 40px;
-  line-height: 20px;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+.arrowright {
+  position: absolute;
+  top: 0px;
+  right: -100px;
+}
+.arrowleft {
+  position: absolute;
+  top: 0px;
+  left: -100px;
+}
+
+@media (max-width: 900px) {
+  .container p {
+    font-size: 18pt;
+  }
+  .arrowleft {
+    width: 37px;
+    left: 10px;
+  }
+  .arrowright {
+    width: 37px;
+    right: 10px;
+  }
 }

@@ -8,7 +8,8 @@ p {
 
 .excited {
   color: #7ED321;
-  font-size: 50pt;
+  font-size: 40pt;
+  /*font-size: 4vmax;*/
 }
 
 .tired {
@@ -23,22 +24,22 @@ p {
 
 .angry {
   color: #F3142F;
-  font-size: 50pt;
+  font-size: 40pt;
 }
 
 .relaxed {
   color: #F58FEE;
-  font-size: 40pt;
+  font-size: 60pt;
 }
 
 .bored {
   color: #BD0FE1;
-  font-size: 40pt;
+  font-size: 50pt;
 }
 
 .sad {
   color: #0076FF;
-  font-size: 60pt;
+  font-size: 50pt;
 }
 
 .container {
@@ -55,8 +56,8 @@ p {
   font-size: 40px;
   font-family: 'Roboto';
   line-height: 0px;
-/*  bottom: 10px;
-  left: 30px;*/
+  bottom: 80px;
+  left: 30px;
 /* Title jumps around despite having the same settings on diff pages */
 }
 
@@ -70,3 +71,10 @@ a:hover {
   text-decoration: none;
   font-size: 150%;
 }
+
+@media (max-width: 900px) {
+  .excited {
+    font-size: 24px;
+  }
+}
+/* end of media query */
