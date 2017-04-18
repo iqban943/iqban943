@@ -1,5 +1,4 @@
 .test {
-    background-color: yellow;
     border-radius: 100%;
     background-color: #FF6700;
     height: 200px;
@@ -14,7 +13,6 @@
 
 
 .test2 {
-    background-color: yellow;
     border-radius: 100%;
     background-color: #FF6700;
     height: 400px;
@@ -23,7 +21,7 @@
     position: fixed;
     right: 0;
     top: 31%;
-    left: 44%;
+    left: 30%;
     z-index: 1;
 }
 
@@ -51,7 +49,7 @@ html,body
 .background1 {
   background-color: #03296C;
   height: 698px;
-  width: 1265px;
+  width: 100%
 }
 .text1 {
   left: 100px;
@@ -67,7 +65,7 @@ html,body
 .background2 {
   background-color: #403C4C;
   height: 790px;
-  width: 1265px;
+  width: 100%;
 }
 
 .desk1 {
@@ -110,7 +108,7 @@ p {
   background-color: white;
   border: 50px solid black;
   height: 690px;
-  width: 1265px;
+  width: 100%;
 }
 
 .text3 {
@@ -138,5 +136,5 @@ p {
 .background5 {
   background-color: #03296C;
   height: 690px;
-  width: 1265px;
+  width: 100%;
 }
