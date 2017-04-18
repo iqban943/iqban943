@@ -25,19 +25,43 @@
     z-index: 1;
 }
 
-/*.me {
-  border-radius: 100%;
-  background-color: #FF6700;
-  height: 200px;
-  width: 200px;
-  float: left;
-  position: fixed;
-  right: 0;
-  top: 31%;
-  left: 44%;
-  z-index: 1;
+.test3 {
+    border-radius: 100%;
+    background-color: #FF6700;
+    height: 300px;
+    width: 300px;
+    float: left;
+    position: fixed;
+    right: 0;
+    top: 31%;
+    left: 40%;
+    z-index: 1;
 }
-*/
+.test4 {
+    border-radius: 100%;
+    background-color: #FF6700;
+    height: 100px;
+    width: 100px;
+    float: left;
+    position: fixed;
+    right: 0;
+    top: 31%;
+    left: 46%;
+    z-index: 1;
+}
+.test5 {
+    border-radius: 100%;
+    background-color: #FF6700;
+    height: 150px;
+    width: 150px;
+    float: left;
+    position: fixed;
+    right: 0;
+    top: 31%;
+    left: 43%;
+    z-index: 1;
+}
+
 html,body
 {
     width: 100%;
@@ -54,12 +78,14 @@ html,body
 .text1 {
   left: 100px;
   top: 100px;
+  position: relative;
 }
 
 .stairs {
   position: relative;
   top: 194px;
   left: 550px;
+  display: inline;
 }
 
 .background2 {
@@ -133,8 +159,57 @@ p {
   right: -780px;
 }
 
+.background4 {
+  background-color: #4B4E61;
+  height: 740px;
+  width: 100%;
+}
+.gridresize {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  display: block;
+}
+
+.text5 {
+  left:80px;
+  top: 20px;
+}
+
 .background5 {
   background-color: #03296C;
-  height: 690px;
+  height: 790px;
   width: 100%;
+}
+
+.text6 {
+  left: 80px;
+  top: 30px;
+}
+
+hr {
+  width: 500px;
+  position: relative;
+  top: 375px;
+  height: 5px;
+  background-color: white;
+}
+
+.friend {
+  border-radius: 100%;
+  background-color: #FF6700;
+  height: 150px;
+  width: 150px;
+  float: left;
+  position: relative;
+  right: 0;
+  top: 55%;
+  left: 43%;
+  z-index: 1;
+}
+
+.text7 {
+  left: 800px;
+  top: 75%;
+  width: 400px;
 }
