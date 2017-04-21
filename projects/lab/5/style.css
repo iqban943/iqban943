@@ -1,0 +1,15 @@
+.button {
+  font-family: sans-serif;
+  border: 2px solid black;
+  width: 13%;
+  height: 10%;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+
+}
+
+p {
+  display: none;
+}

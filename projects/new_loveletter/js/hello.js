@@ -1,3 +1,20 @@
+// $(function() {
+//     $(window).scroll(function() {
+//         var body = $('body');
+//         var scrollTop = body.scrollTop();
+
+//         console.log(scrollTop);
+
+//         if ( scrollTop > $('.background5').offset().top ) {
+//             $('#myP').addClass('').addClass('test5');
+//         } else if ( scrollTop > $('.background4').offset().top ) {
+//             $('#myP').addClass('').addClass('test4');
+//         } else {
+//             $('#myP').addClass('');
+//         }
+//     });
+// })
+
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
