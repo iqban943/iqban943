@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    text-align: left;
+    font-size: 8vh;
+    line-height: 1.3;
+    background-color: black;
+}
+
+video {
+  width: 100%;
+}
+
+.content {
+  max-width: 815px;
+  /*width: 816px;*/
+  padding: 100px 30px;
+  margin: auto;
+  font-weight: 300;
+  height: -webkit-calc(50% - 18px);
+   height: calc(50% - 18px);
+   display: block;
+}
+
+p {
+  font-family: "Futura", sans serif;
+  color: white;
+  padding-top: 30px;
+}
