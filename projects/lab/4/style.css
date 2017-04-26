@@ -1,0 +1,36 @@
+.box {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 30.33vw;
+  height: 25.33vh;
+  background-color: #1fb9d2;
+}
+
+.small {
+  width: 15%;
+  height: 33%;
+  position: absolute;
+  background-color: #3b47a1;
+}
+
+.t1 {
+  left: 0%;
+  top: 0%;
+}
+
+.t2 {
+  right: 0%;
+  top: 0%;
+}
+
+.b1 {
+  left: 0%;
+  bottom: 0%;
+}
+
+.b2 {
+  right: 0%;
+  bottom: 0%;
+}
