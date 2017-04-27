@@ -1,3 +1,9 @@
+function updateTime() {
+  var date = new Date();
+  $('#time').html( date.toGMTString() );
+}
+
 $(function() {
-  // Your interactions go here
+  updateTime();
+  setInterval(updateTime, 1000);
 });

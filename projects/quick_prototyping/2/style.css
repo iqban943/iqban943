@@ -1,1 +1,21 @@
-/* Your styles go here */
+p {
+    color: #6242f4;
+    position: relative;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: example;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    font-size: 5vh;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+@-webkit-keyframes example {
+    0%   {color: #6242f4; left:200px; top:200px;}
+    25%  {color: #a742f4; left:600px; top:200px;}
+    50%  {color: #e542f4; left:600px; top:400px;}
+    75%  {color: #a742f4; left:200px; top:400px;}
+    100% {color: #6242f4; left:200px; top:200px;}
+}
