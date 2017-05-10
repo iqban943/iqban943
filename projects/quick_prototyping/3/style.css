@@ -3,13 +3,16 @@ body {
 }
 
 img {
-  z-index: 1;
+  position: fixed;
+  pointer-events: none;
+}
+
+.phone {
   position: fixed;
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 0);
   height: 100%;
-  pointer-events: none;
 }
 
 iframe {
@@ -18,6 +21,86 @@ iframe {
   position: fixed;
 }
 
-embed {
+audio {
   float: right;
+}
+
+.fb {
+  width: 484px;
+  height: 68px;
+}
+
+.insta {
+  height: 210px;
+  width: 250px;
+}
+
+.one {
+  display: none;
+}
+
+.two {
+  left: 10%;
+  top: 15%;
+  display: none;
+}
+
+.three {
+  right: 10%;
+  bottom: 25%;
+  display: none;
+}
+
+.four {
+  left: 20%;
+  bottom: 40%;
+  display: none;
+}
+
+.five {
+  left: 5%;
+  bottom: 5%;
+  display: none;
+}
+
+.six {
+  right: 15%;
+  top: 10%;
+  display: none;
+}
+
+.seven {
+  left: 20%;
+  bottom: 10%;
+  display: none;
+}
+
+.eight {
+  left: 7%;
+  top: 35%;
+  display: none;
+}
+
+.nine {
+  right: 5%;
+  top: 45%;
+  display: none;
+}
+
+.ten {
+  right: 5%;
+  bottom: 0%;
+  display: none;
+}
+
+.eleven {
+  right: 30%;
+  bottom: 50%;
+  display: none;
+}
+
+.twelve {
+  bottom: 30%;
+  left: 15%;
+  display: none;
 }
