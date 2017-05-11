@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+}
+
+img {
+  position: fixed;
+  pointer-events: none;
+}
+
+.phone {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 100%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+audio {
+  float: right;
+}
+
+.fb {
+  width: 484px;
+  height: 68px;
+}
+
+.insta {
+  height: 210px;
+  width: 250px;
+}
+
+.one {
+  display: none;
+}
+
+.two {
+  left: 10%;
+  top: 15%;
+  display: none;
+}
+
+.three {
+  right: 10%;
+  bottom: 25%;
+  display: none;
+}
+
+.four {
+  left: 20%;
+  bottom: 40%;
+  display: none;
+}
+
+.five {
+  left: 5%;
+  bottom: 5%;
+  display: none;
+}
+
+.six {
+  right: 15%;
+  top: 10%;
+  display: none;
+}
+
+.seven {
+  left: 20%;
+  bottom: 10%;
+  display: none;
+}
+
+.eight {
+  left: 7%;
+  top: 35%;
+  display: none;
+}
+
+.nine {
+  right: 5%;
+  top: 45%;
+  display: none;
+}
+
+.ten {
+  right: 5%;
+  bottom: 0%;
+  display: none;
+}
+
+.eleven {
+  right: 30%;
+  bottom: 50%;
+  display: none;
+}
+
+.twelve {
+  bottom: 30%;
+  left: 15%;
+  display: none;
+}
+
+.thirteen {
+  bottom: 10%;
+  right: 2%;
+  display: none;
+}
+
+.fourteen {
+  top: 21%;
+  left: 2%;
+  display: none;
+}
+
+.fifteen {
+  top: 65%;
+  left: 20%;
+  display: none;
+}
+
+.sixteen {
+  top: 0%;
+  right: 0%;
+  display: none;
+}
+
+.seventeen {
+  top: 0%;
+  left: 0%;
+  display: none;
+}
+.eighteen {
+  top: 10%;
+  left: 40%;
+  display: none;
+}
+
+.nineteen {
+  top: 40%;
+  left: 45%;
+  display: none;
+}
+
+.twenty {
+  top: 50%;
+  right: 0%;
+  display: none;
+}
+
+.twentyone {
+  bottom: 0%;
+  left: 0%;
+  display: none;
+}
+
+.twentytwo {
+  top: 20%;
+  left: 55%;
+  display: none;
+}
+@media (max-width: 750px) {
+  .phone {
+    display: none;
+  }
+}
